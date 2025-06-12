@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Ford Oud Wood</title>
+    <link rel="stylesheet" href="product.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/utility.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <!-- ANIMATEin CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+
+
+
+<body>
+    <header id="top">
+        <nav data-aos="fade-down" data-aos-duration="700">
+            <a href="/index.html" class="nav_name">Luxe Essence</a>
+            <div class="nav_content">
+                <div class="nav_links">
+                    <a href="/index.html">Home</a>
+                    <a href="/shop.html">Shop</a>
+                    <a href="/about.html">About us</a>
+                </div>
+                <div class="nav_icons">
+                    <i class='bx bxl-gmail ' onclick="openGmail()" style="cursor: pointer;"></i>
+                    <a href="https://wa.me/+00000000000" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="/assets/Product_img/TOM FORD Oud Wood.png" alt="" class="hero_img" data-aos="fade-right"
+                data-aos-duration="1000">
+            <div class="hero_content" data-aos="fade-left" data-aos-duration="1000">
+                <h3 class="hero_name">Tom Ford Oud Wood</h3>
+                <span class="hero_size">100 ml</span>
+                <p class="hero_desc">A groundbreaking composition of oud notes, exotic woods and warm amber.</p>
+                <span class="hero_price">$ 150.00</span>
+                <span class="hero_stock">Out of stock</span>
+                
+                    <button class="hero_btn" id="orderButton" onclick="orderWhatsApp('Tom Ford Oud Wood',150)">Message on Whatsapp</button>
+                
+            </div>
+
+          
+
+        </section>
+        <section class="details" data-aos="fade-right" data-aos-duration="1000">
+            <h3>Product Details</h3>
+            <p>With Oud Wood, TOM FORD uses rare oud notes to overwhelm the senses with dark, earthy sensuality. Exotic
+                rosewood and cardamom give way to a smoky blend of precious oud notes, sandalwood and vetiver. Tonka
+                bean and amber add warmth and sensuality.</p>
+        </section>
+    </main>
+
+    <footer data-aos-duration="1000" data-aos="fade-left" data-aos-offset="0">
+        <div class="footer_links">
+            <h5>Luxe Essence</h5>
+            <div>
+                <i class='bx bxl-gmail ' onclick="openGmail()" style="cursor: pointer;"></i>
+                <a href="https://wa.me/+00000000000" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+
+        <div class="footer_pages">
+            <span>Pages</span>
+
+            <a href="/home.html">Home</a>
+            <a href="/shop.html">Shop</a>
+            <a href="/about.html">About Us</a>
+        </div>
+    </footer data-aos-duration="1000" data-aos="fade-left">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+<script src="./product.js"></script>
+<script>
+    function openGmail() {
+        const email = "demo@example.com";
+      const subject = "Message to Luxe Essence";
+      const body = "";
+      const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.open(mailtoLink, "_blank");
+    }
+  </script>
+</body>
+
+</html>

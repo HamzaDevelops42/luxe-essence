@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="about.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <!-- ANIMATEin CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+
+
+<body>
+    <header id="top">
+        <nav data-aos="fade-down" data-aos-duration="700">
+            <a href="./index.html" class="nav_name">Luxe Essence</a>
+            <div class="nav_content">
+                <div class="nav_links">
+                    <a href="/index.html">Home</a>
+                    <a href="/shop.html">Shop</a>
+                    <a href="#top">About us</a>
+                </div>
+                <div class="nav_icons">
+                    <i class='bx bxl-gmail ' onclick="openGmail()" style="cursor: pointer;"></i>
+                    <a href="https://wa.me/+00000000000" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about_us">
+            <img src="./assets/images/About_1.png" alt="" data-aos="fade-right" data-aos-duration="700">
+            <div class="about_us_content" data-aos="fade-left" data-aos-duration="700">
+                <h2>About US</h2>
+                <p>At Luxe Essence, we believe that perfumes are more than just scents; they are expressions of one's
+                    individuality and style. Our passion for exquisite fragrances led us to curate a collection that
+                    captures the essence of diverse personalities, bringing you an unparalleled olfactory experience.
+                </p>
+            </div>
+        </div>
+        <div class="our_story">
+            <div class="our_story_content" data-aos="zoom-in-up" data-aos-duration="700">
+                <h2>Our Story</h2>
+                <p>Luxe Essence Perfumes was founded by a group of perfume enthusiasts with a shared vision to create a
+                    haven for perfume lovers seeking authentic, locally-inspired fragrances. Inspired by the diversity
+                    and richness of cultures around the world, we set out on a journey to curate a collection of scents
+                    that capture the essence of each region. Our aim is to bring you closer to the heart and soul of
+                    different cultures through the art of perfumery.</p>
+            </div>
+        </div>
+        <div class="img">
+            <img src="assets/images/about_2.png" alt="" data-aos="fade-left" data-aos-duration="700">
+            <p data-aos="fade-right" data-aos-duration="700">Join us on this olfactory adventure as we celebrate the diverse tapestry of scents from around the world.
+                Discover the captivating aromas that embrace the essence of local cultures and connect with the beauty
+                of our shared humanity. Thank you for being a part of our journey. With love and gratitude, The Local
+                Face Perfumes Team</p>
+        </div>
+    </main>
+
+    <footer data-aos-duration="1000" data-aos="fade-left" data-aos-offset="0">
+        <div class="footer_links">
+            <h5>Luxe Essence</h5>
+            <div>
+                <i class='bx bxl-gmail ' onclick="openGmail()" style="cursor: pointer;"></i>
+                <a href="https://wa.me/+00000000000" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+
+        <div class="footer_pages">
+            <span>Pages</span>
+
+            <a href="./home.html">Home</a>
+            <a href="./shop.html">Shop</a>
+            <a href="#top">About Us</a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        function openGmail() {
+            const email = "demo@example.com";
+          const subject = "Message to Luxe Essence";
+          const body = "";
+          const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(email)}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+          window.open(mailtoLink, "_blank");
+        }
+      </script>
+</body>
+
+</html>

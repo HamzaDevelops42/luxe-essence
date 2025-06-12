@@ -1,0 +1,145 @@
+.heading {
+    color: #AB572D;
+    text-align: center;
+    font-size: 3.2rem;
+    margin-top: 6rem;
+}
+
+.items_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    margin: 8rem auto;
+    flex-wrap: wrap;
+    gap: 3.385vw;
+}
+
+.item {
+    width: 14.542vw;
+    height: 23.698vw;
+    background-color: #3D3D3D;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    border-radius: .7rem;
+    background: radial-gradient(circle, #858585 10%, #151515 97%);
+
+}
+
+.item_img {
+    height: 17.708vw;
+}
+
+.item_name {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.item_price {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    color: #AB572D;
+}
+
+@media (max-width: 1408px) {
+    .item {
+        width: 17.542vw;
+        height: 25.698vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .item {
+        width: 21.542vw;
+        height: 31.698vw;
+    }
+
+    .item_img {
+        height: 22.708vw;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 50% !important;
+
+    }
+
+    .item_img {
+        height: 27.708vw;
+    }
+
+    .item {
+        width: 26.542vw;
+        height: 38.698vw;
+    }
+}
+@media (max-width: 600px) {
+    html {
+        font-size: 45% !important;
+    }
+}
+@media (max-width: 530px) {
+    html {
+        font-size: 45% !important;
+    }
+    .item_img {
+        height: 33.708vw;
+    }
+    .item {
+        width: 31.542vw;
+        height: 46.698vw;
+    }
+}
+@media (max-width: 426px) {
+    html {
+        font-size: 50% !important;
+    }
+    .items_box{
+        gap: 5rem;
+    }
+    .item_img {
+        height: 41.708vw;
+    }
+    .item {
+        width: 46.542vw;
+        height: 60.698vw;
+        border-radius: 1.1rem;
+    }
+}
+@media (max-width: 339px) {
+    .item_img {
+        height: 50.708vw;
+    }
+    .item {
+        width: 57.542vw;
+        height: 73.698vw;
+    }
+}
+@media (max-width: 274px) {
+.nav_content{
+    flex-direction: column;
+}
+
+}
+@media (max-width: 278px) {
+    .item {
+        width: 68.542vw;
+        height: 84.698vw;
+    }
+    .item_img {
+        height: 50.708vw;
+    }
+
+}
+@media (max-width: 828px) {
+    nav{
+        width: 100%;
+        margin: 1rem 0rem;
+    }
+
+}
